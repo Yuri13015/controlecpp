@@ -10,10 +10,12 @@ class Boxeur
 		double poids;
 	
 	public:
+		Boxeur(string nom, double poids);
 		string GetNom() { return nom; }
-		//void SetPoids(float&) { this->poids = poids; }
-		double SetPoids() { return poids; }
-		Boxeur(string);
+		void SetPoids(double&) { this->poids = poids; }
+		double GetPoids() { return poids; }
+		~Boxeur();
+
 };
 }
 
