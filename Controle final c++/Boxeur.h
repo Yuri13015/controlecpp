@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-namespace Boxeur{
+namespace Boxeurs{
 class Boxeur
 {
 	private:
@@ -10,6 +10,7 @@ class Boxeur
 		double poids;
 	
 	public:
+		//Boxeur();
 		Boxeur(string nom, double poids);
 		string GetNom() { return nom; }
 		void SetPoids(double&) { this->poids = poids; }
