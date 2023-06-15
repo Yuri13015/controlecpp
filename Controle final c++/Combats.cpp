@@ -11,6 +11,7 @@ Combats::Combat::Combat(string niveau)
 #endif
 }
 
+
 Combats::Combat::~Combat()
 {
 }
