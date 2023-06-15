@@ -11,29 +11,28 @@ Combats::Combat::Combat(string niveau)
 #endif
 }
 
-void Combats::Combat::SetCoinBleu(Boxeur* coinBleu)
+void Combats::Combat::SetCoinBleu(Boxeur* PcoinBleu)
 {
-	coinBleu = coinBleu;
 #ifdef TRACE
-	cout << "=>coinBleu (" << coinBleu->GetNom() << ") " << this << std::endl;
+	cout << "=>coinBleu (" << PcoinBleu->GetNom() << ") " << this << std::endl;
 #endif
-	if (coinBleu != coinRouge) {
-		coinBleu = coinBleu;
+	if (PcoinBleu != coinRouge) {
+		coinBleu = PcoinBleu;
 	}
 	else {
 		cout << "Ce boxeur est déjà dans le coin rouge !" << endl;
 	}
 }
 
-void Combats::Combat::SetCoinRouge(Boxeur* coinRouge)
+void Combats::Combat::SetCoinRouge(Boxeur* PcoinRouge)
 {
-	coinRouge = coinRouge;
+	
 #ifdef TRACE
-	cout << "=>coinRouge (" << coinRouge->GetNom() << ") " << this << std::endl;
+	cout << "=>coinRouge (" << PcoinRouge->GetNom() << ") " << this << std::endl;
 #endif
 
-	if (coinRouge != coinBleu) {
-		coinRouge = coinRouge;
+	if (PcoinRouge != coinBleu) {
+		coinRouge = PcoinRouge;
 	}
 	else {
 		cout << "Ce boxeur combat déjà dans l'autre camp" << endl;
