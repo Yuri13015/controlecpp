@@ -11,6 +11,28 @@ Combats::Combat::Combat(string niveau)
 #endif
 }
 
+void Combats::Combat::SetCoinBleu(Boxeur* coinBleu)
+{
+	coinBleu = coinBleu;
+	if (coinBleu != coinRouge) {
+		coinBleu = coinBleu;
+	}
+	else {
+		cout << "Ce boxeur est déjà dans le coin rouge !" << endl;
+	}
+}
+
+void Combats::Combat::SetCoinRouge(Boxeur* coinRouge)
+{
+	coinRouge = coinRouge;
+	if (coinRouge != coinBleu) {
+		coinRouge = coinRouge;
+	}
+	else {
+		cout << "Ce boxeur combat déjà dans l'autre camp" << endl;
+	}
+	}
+
 
 Combats::Combat::~Combat()
 {

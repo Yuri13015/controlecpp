@@ -21,6 +21,7 @@ int main()
 
 	Boxeur nom_2("Box_2", 78);
 	cout << "Deuxieme Boxeur " << &nom_2 << " de nom " << nom_2.GetNom()<<" Pese "<<nom_2.GetPoids() << endl;
+	combat_1.SetCoinRouge(&nom_2);
 
 
 
