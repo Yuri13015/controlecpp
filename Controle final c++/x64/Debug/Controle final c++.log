@@ -1,4 +1,15 @@
 ﻿  Combats.cpp
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(13,9): error C2143: erreur de syntaxe : absence de ';' avant '*'
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(13,9): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(13,26): error C2238: jetons inattendus avant ';'
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(18,23): error C2061: erreur de syntaxe : identificateur 'Boxeur'
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(19,23): error C2061: erreur de syntaxe : identificateur 'Boxeur'
   Controle final c++.cpp
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(13,9): error C2143: erreur de syntaxe : absence de ';' avant '*'
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(13,9): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(13,26): error C2238: jetons inattendus avant ';'
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(18,23): error C2061: erreur de syntaxe : identificateur 'Boxeur'
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(19,23): error C2061: erreur de syntaxe : identificateur 'Boxeur'
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Controle final c++.cpp(18,29): error C2660: 'Combats::Combat::SetCoinBleu' : la fonction ne prend pas 1 arguments
+C:\Users\yuri\Desktop\Controle final c++\Controle final c++\Combats.h(19,11): message : voir la déclaration de 'Combats::Combat::SetCoinBleu'
   Génération de code en cours...
-  Controle final c++.vcxproj -> C:\Users\yuri\Desktop\Controle final c++\x64\Debug\Controle final c++.exe

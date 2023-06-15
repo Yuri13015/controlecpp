@@ -15,6 +15,7 @@ int main()
 
 	Boxeur nom_1("Box_1",75);
 	cout << "Premier Boxeur " << &nom_1 << " de nom " << nom_1.GetNom()<<" Pese " << nom_1.GetPoids() << endl;
+	combat_1.SetCoinBleu(&nom_1);
 	cout << endl << endl;
 
 

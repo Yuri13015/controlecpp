@@ -16,7 +16,7 @@ namespace Combats {
 		Combat(string);
 		string GetNiveau() { return niveau; }
 		Combat* GetCoinBleu(Boxeur* coinBleu);
-		Combat* setCoinBleu(Boxeur* coinBleu);
+		Combat* SetCoinBleu(Boxeur* coinBleu);
 
 
 		~Combat();
