@@ -14,6 +14,9 @@ Combats::Combat::Combat(string niveau)
 void Combats::Combat::SetCoinBleu(Boxeur* coinBleu)
 {
 	coinBleu = coinBleu;
+#ifdef TRACE
+	cout << "=>coinBleu (" << coinBleu->GetNom() << ") " << this << std::endl;
+#endif
 	if (coinBleu != coinRouge) {
 		coinBleu = coinBleu;
 	}
@@ -25,6 +28,10 @@ void Combats::Combat::SetCoinBleu(Boxeur* coinBleu)
 void Combats::Combat::SetCoinRouge(Boxeur* coinRouge)
 {
 	coinRouge = coinRouge;
+#ifdef TRACE
+	cout << "=>coinRouge (" << coinRouge->GetNom() << ") " << this << std::endl;
+#endif
+
 	if (coinRouge != coinBleu) {
 		coinRouge = coinRouge;
 	}

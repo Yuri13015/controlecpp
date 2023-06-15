@@ -13,6 +13,7 @@ namespace Combats {
 		Boxeurs::Boxeur* coinBleu;
 		Boxeurs::Boxeur* coinRouge;
 
+
 	public:
 		Combat(string);
 		string GetNiveau() { return niveau; }
