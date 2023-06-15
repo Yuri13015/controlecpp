@@ -17,7 +17,6 @@ Boxeurs::Boxeur::Boxeur(string nom, double poids)
 
 #ifdef TRACE
 	cout << "=> (" << this->nom << ") " << this << std::endl;
-	cout << "=> (" << this->poids << ") " << this << std::endl;
 #endif
 
 }
