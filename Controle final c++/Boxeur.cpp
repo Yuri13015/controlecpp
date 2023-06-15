@@ -13,13 +13,13 @@ using namespace std;
 Boxeurs::Boxeur::Boxeur(string nom, double poids)
 {
 	this->nom = nom;
+	this->poids = poids;
+
 #ifdef TRACE
 	cout << "=> (" << this->nom << ") " << this << std::endl;
-#endif
-	this->poids = poids;
-#ifdef TRACE
 	cout << "=> (" << this->poids << ") " << this << std::endl;
 #endif
+
 }
 
 
